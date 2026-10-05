@@ -15,7 +15,7 @@
       "matchUpdateTypes": ["minor", "patch", "digest", "pin", "pinDigest", "lockFileMaintenance"],
       "automerge": true
     },
-    { "matchUpdateTypes": ["major"], "automerge": false, "addLabels": ["major"] }
+    { "matchUpdateTypes": ["major"], "automerge": false, "addLabels": ["major"], "rebaseWhen": "conflicted" }
   ],
   "vulnerabilityAlerts": { "automerge": true }
 }
