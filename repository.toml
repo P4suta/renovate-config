@@ -1,0 +1,14 @@
+name = "renovate-config"
+summary = "Shared Renovate policy for P4suta repositories"
+install = """
+git clone https://github.com/P4suta/renovate-config.git
+cd renovate-config
+"""
+usage_language = "json"
+usage = '''
+{
+  "extends": ["github>P4suta/renovate-config"]
+}
+'''
+documentation_index = true
+license = "unlicensed"
